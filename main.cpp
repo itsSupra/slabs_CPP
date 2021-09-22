@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    cout << "Task 10" << endl;
+    cout << "Task 1" << endl;
     cout << "Size of short: " << sizeof(short) << endl;
     cout << "Size of int: " << sizeof(int) << endl;
     cout << "Size of long: " << sizeof(long) << endl;
@@ -94,13 +94,21 @@ int main() {
     cout << t << endl;
     cout << r << endl;
 
-    cout << endl << "Task 10" << endl;
-    // cout << "Type: " << sizeof (int) << endl;
+    cout << "Task 10" << endl;
+    int a2 = 1;
+    double b2 = 2;
+    float f3 = 3.2;
+    short s4 = 1;
+    cout << "Size of short: " << sizeof(s4) << endl;
+    cout << "Size of int: " << sizeof(a2) << endl;
+    cout << "Size of float: " << sizeof(f3) << endl;
+    cout << "Size of double: " << sizeof(b2) << endl;
+    cout << "(char)+1" << sizeof((char) +1) << endl;
 
-   int sad = 0xffffffff80000000;
-    cout << sad << endl;
-
-
+    cout << endl << "Task 11" << endl;
+    short int uu = 14;
+    cout << bitset<16>(uu) << endl;
+    cout << bitset<32>(int(uu)) << endl;
     return 0;
 
 
